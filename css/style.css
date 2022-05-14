@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(226, 191, 191, 0.5);
+    background-image: url(../img/bg.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+
+}
+
+.main{
+    background: rgba(219, 214, 214, 0.3);
+    width: 500px;
+    height: 700px;
+    margin: 80px auto;
+    text-align: center;
+    
+}
+
+h1{
+    color: #fff;
+    font-size: 150px;
+    font-family: 'Bangers', cursive;
+}
+p{
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    color: #2D65FF;
+}
+
+a{
+    color: rgb(28, 28, 29);
+    text-decoration: none;
+}
+
+header{
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    
+}
+ul{
+    list-style: none;
+    
+    
+}
+li{
+    padding: 10px;
+    
+}
+li>a{
+    color: rgb(255, 255, 255);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 22px;
+}
+li>a:hover{
+    color: gold;
+}
+
+@media screen and (max-width: 850px) {
+    li{
+        display:inline;
+    }
+    .main{
+        margin-top: 200px;
+    }
+}
